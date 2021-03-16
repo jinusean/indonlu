@@ -6,11 +6,10 @@ import torch
 from torch import nn
 from torch.nn import CrossEntropyLoss, MSELoss
 
-from transformers.activations import gelu, gelu_new, swish
-from transformers.configuration_bert import BertConfig
-from transformers.file_utils import add_start_docstrings, add_start_docstrings_to_callable
+from transformers.activations import gelu, gelu_new
+from transformers.file_utils import add_start_docstrings
 from transformers.modeling_utils import PreTrainedModel, prune_linear_layer
-from transformers.modeling_xlm import XLMPreTrainedModel
+from transformers.models.xlm import XLMPreTrainedModel
 from transformers import AlbertPreTrainedModel, BertPreTrainedModel, AlbertModel, BertModel, BertConfig, XLMModel, XLMConfig, XLMRobertaModel, XLMRobertaConfig
 from transformers import AutoTokenizer, AutoConfig
 

@@ -138,3 +138,5 @@ dmypy.json
 /*/*/*/data_pool/
 /*/*/*/*/data_pool/
 save/
+
+.idea
